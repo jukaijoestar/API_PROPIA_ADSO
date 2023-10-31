@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta2/css/bootstrap.min.css">
+    <title>API TASK</title>
+</head>
+<body>
+    <h1 class="text-center my-4">TAREAS A REALIZAR - ADSO</h1>
+    <!-- Agrega un cuadro de diálogo de presentación -->
+    <div class="dialog-container">
+        <div class="dialog-box">
+            <p class="content">¡Hola! Mi nombre es Tasque, voy a ser tu asistente para la administración de tus tareas pendientes, ¿A que esperas? Es hora de ponerte al día.</p>
+            <img src="aea.png" alt="Imagen de presentación" class="img">
+        </div>
+        <div id="task-form">
+            <h2>Agregar Nueva Tarea</h2>
+            Título
+            <input type="text" id="new-task-title" placeholder="Título">
+            Descripción
+            <input type="text" id="new-task-description" placeholder="Descripción">
+            Fecha de entrega
+            <input type="date" id="new-task-due-date" placeholder="Fecha de Vencimiento (dd/mm/yyyy)">
+            Materia
+            <input type="text" id="new-task-subject" placeholder="Materia">
+            <button id="add-task-button">Agregar Tarea</button>
+          </div>
+    </div>
+    
+    <h1 class="text-center my-4">TAREAS A REALIZAR - ADSO</h1>
+    
+    <!-- Agrega un contenedor para las tareas -->
+    <div id="task-list-container" class="container"></div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "Task": [
+    {
+      "id": 1,
+      "title": "Consumo de API",
+      "Description": "Aprender a consumir la API anteriormente hecha, utilizando html y principalmente JavaScript, esto para darle un uso a la APi creada",
+      "Due Date": "25/10/2023",
+      "Subject": "Requerimientos de Software",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 2,
+      "title": "Creación de diseño para el aplicativo API",
+      "Description": "Aprender a realizar un diseño adecuado para el aplicativo web, aprovechando las ventajas que dan tener la api ya creada",
+      "Due Date": "26/10/2023",
+      "Subject": "Requerimientos de Software",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 3,
+      "title": "Proyecto formativo - FASE 1",
+      "Description": "Completar la fase de investigación para el proyecto formativo, así teniendo las bases para poder realizarlo cómo tal.",
+      "Due Date": "30/10/2023",
+      "Subject": "Requerimientos de Software",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 4,
+      "title": "PROYECTO NOMINA",
+      "Description": "Realizar correctamente un aplicativo web utilizando el lenguaje PYTHON, este aplicativo deberá realizar correctamente la liquidacion de los empleados de una empresa, generar un boletín de pago y un reporte de todas las liquidaciones",
+      "Due Date": "03/11/2023",
+      "Subject": "Analisis de Software",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 5,
+      "title": "PROYECTO EMPRESA",
+      "Description": "Crear un aplicativo web orientado a la administraación completa de una empresa, esto utilizando el lenguaje PHP.",
+      "Due Date": "20/11/2023",
+      "Subject": "Analisis de Software",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 6,
+      "title": "Proyecto formativo - FASE 2",
+      "Description": "Completar al 100% el proyecto formativo, presentarlo y con esto finalmente graduarse.",
+      "Due Date": "1/12/2023",
+      "Subject": "SENA",
+      "estado": "Pendiente"
+    }
+  ]
+}
